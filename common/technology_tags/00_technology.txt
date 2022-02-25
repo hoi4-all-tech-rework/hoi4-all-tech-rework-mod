@@ -2,40 +2,40 @@
 # If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
+	# Air
 	light_air
 	medium_air
 	heavy_air
-	armor
-	cat_light_armor
-	cat_medium_armor
-	cat_heavy_armor
-	artillery
-	cat_anti_tank
-	cat_anti_air
 	naval_air
-	infantry_weapons
-	motorized_equipment
-	cat_mechanized_equipment
-	naval_equipment
-	rocketry
-	nuclear
-	industry
-	electronics
-	land_doctrine
-	air_doctrine
-	naval_doctrine
-	strategic_destruction_tree
-	battlefield_support_tree
-	operational_integrity_tree
 	jet_technology
-	trade_interdiction_tree
-	convoy_defense_tree
 	light_fighter
 	cat_heavy_fighter
 	tactical_bomber
 	cat_strategic_bomber
 	naval_bomber
 	cas_bomber
+	air_equipment
+	cat_scout_plane
+	# Armor
+	armor
+	cat_light_armor
+	cat_medium_armor
+	cat_heavy_armor
+	# Artillery
+	artillery
+	cat_anti_tank
+	cat_anti_air
+	mot_rockets
+	# Infantry
+	infantry_weapons
+	infantry_tech
+	marine_tech
+	night_vision
+	# Track
+	motorized_equipment
+	cat_mechanized_equipment
+	# Naval
+	naval_equipment
 	ship_modules_tech
 	dd_tech
 	cl_tech
@@ -46,18 +46,38 @@ technology_categories = {
 	shbb_tech
 	ss_tech
 	tp_tech
+	naval_mines
+	asw_tech
+	naval_minesweeping
+	naval_minelaying
+	# Industry & Electric
+	rocketry
+	nuclear
+	industry
+	electronics
 	synth_resources
-	fleet_in_being_tree
 	encryption_tech
 	decryption_tech
 	computing_tech
 	radar_tech
-	infantry_tech
-	marine_tech
 	construction_tech
 	excavation_tech
+	concentrated_industry_category
+	dispersed_industry_category
+	cat_production
+	cat_synth_rubber
+	cat_synth_oil
+	# Doctrine
+	land_doctrine
+	air_doctrine
+	naval_doctrine
+	strategic_destruction_tree
+	battlefield_support_tree
+	operational_integrity_tree
+	trade_interdiction_tree
+	convoy_defense_tree
+	fleet_in_being_tree
 	submarine_doctrine
-	air_equipment
 	cat_mobile_warfare
 	cat_superior_firepower
 	cat_grand_battle_plan
@@ -68,9 +88,8 @@ technology_categories = {
 	cat_strategic_destruction
 	cat_battlefield_support
 	cat_operational_integrity
-	night_vision
 	base_strike_main
-	mot_rockets
+	# Support
 	support_tech
 	para_tech
 	engineers_tech
@@ -81,17 +100,8 @@ technology_categories = {
 	logistics_tech
 	signal_company_tech
 	maintenance_company_tech
-	naval_mines
-	concentrated_industry_category
-	dispersed_industry_category
-	asw_tech
-	naval_minesweeping
-	naval_minelaying
-	cat_scout_plane
+	
 	train_tech
-	cat_production
-	cat_synth_rubber
-	cat_synth_oil
 }
 
 technology_folders = {
