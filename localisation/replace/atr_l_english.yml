@@ -1,0 +1,7 @@
+﻿l_english:
+  # GUI
+ HOWITZER_TITLE:0 "榴弾砲"
+ ARTILLERY_AA_TITLE:0 "高射砲"
+  # Tech
+ gw_howitzer:0 "前大戦型榴弾砲"
+ gw_aa:0 "前大戦型高射砲"
