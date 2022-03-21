@@ -34,10 +34,38 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.43
+		build_cost_ic = 0.1
 		resources = {
 			steel = 1
 		}
+	}
+
+	infantry_equipment_X = {
+		year = 1900
+	
+		archetype = infantry_equipment
+		active = yes
+		priority = 5
+		visual_level = 0
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.82
+		maximum_speed = 4.2
+
+		#Defensive Abilities
+		defense = 10
+
+		#Offensive Abilities
+		soft_attack = 1.2
+		hard_attack = 0.2
+		ap_attack = 0.2
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.2
+		
+		build_cost_ic = 0.08
 	}
 
 	infantry_equipment_0 = {
@@ -45,7 +73,7 @@ equipments = {
 	
 		archetype = infantry_equipment
 		active = yes
-		priority = 05
+		priority = 5
 		visual_level = 0
 	}
 	
@@ -68,7 +96,7 @@ equipments = {
 		ap_attack = 4
 		air_attack = 0
 
-		build_cost_ic = 0.50
+		build_cost_ic = 0.15
 	}
 
 	# Improved weapons  ~1939
@@ -90,7 +118,7 @@ equipments = {
 		ap_attack = 5
 		air_attack = 0
 		
-		build_cost_ic = 0.58
+		build_cost_ic = 0.2
 	}
 	
 	# Advanced weapons  ~1942
@@ -112,7 +140,7 @@ equipments = {
 		ap_attack = 10
 		air_attack = 0
 		
-		build_cost_ic = 0.69
+		build_cost_ic = 0.31
 	}
 	
 	machine_gun_equipment = {
@@ -146,7 +174,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.90
+		build_cost_ic = 0.40
 		resources = {
 			steel = 1
 		}
@@ -180,7 +208,7 @@ equipments = {
 		ap_attack = 7
 		air_attack = 0
 		
-		build_cost_ic = 1.00
+		build_cost_ic = 0.50
 	}
 	
 	# 改良型機関銃(39年)
@@ -202,7 +230,7 @@ equipments = {
 		ap_attack = 10
 		air_attack = 0
 		
-		build_cost_ic = 1.20
+		build_cost_ic = 0.72
 		resources = {
 			steel = 2
 		}
@@ -228,6 +256,7 @@ equipments = {
 		air_attack = 0
 		
 		reliability = 0.8
-		build_cost_ic = 1.4
+		build_cost_ic = 0.89
 	}
+
 }
