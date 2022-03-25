@@ -1,5 +1,5 @@
 technologies = {
-	# 榴弾砲系列
+	# カノン砲系列
 	gw_howitzer = {
 		research_cost = 1.5
 		
@@ -9,17 +9,23 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = small_howitzer_1
+			leads_to_tech = small_cannon_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = medium_howitzer_1
+			leads_to_tech = medium_cannon_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = large_howitzer_1
+			leads_to_tech = large_cannon_1
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			gw_artillery_equipment_0
+			gw_artillery_equipment_1
+			siege_artillery_equipment_0
+		}
+
 		
 		ai_will_do = {
 			factor = 2
@@ -39,7 +45,7 @@ technologies = {
 		}
 	}
 	
-	small_howitzer_1 = {
+	small_cannon_1 = {
 		research_cost = 1.0
 		
 		folder = {
@@ -67,7 +73,7 @@ technologies = {
 		}
 	}
 	
-	medium_howitzer_1 = {
+	medium_cannon_1 = {
 		research_cost = 1.0
 		
 		folder = {
@@ -95,7 +101,7 @@ technologies = {
 		}
 	}
 	
-	large_howitzer_1 = {
+	large_cannon_1 = {
 		research_cost = 1.0
 		
 		folder = {
@@ -123,7 +129,7 @@ technologies = {
 		}
 	}
 	
-	# 高射砲系列
+	# 榴弾砲系列
 	gw_aa = {
 		research_cost = 1.5
 		
@@ -133,11 +139,11 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = small_aa_1
+			leads_to_tech = small_howitzer_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = large_aa_1
+			leads_to_tech = large_howitzer_1
 			research_cost_coeff = 1
 		}
 		ai_will_do = {
@@ -160,7 +166,7 @@ technologies = {
 		}
 	}
 	
-	small_aa_1 = {
+	small_howitzer_1 = {
 		research_cost = 1.0
 		
 		folder = {
@@ -187,7 +193,7 @@ technologies = {
 		}
 	}
 	
-	large_aa_1 = {
+	large_howitzer_1 = {
 		research_cost = 1.0
 		
 		folder = {
