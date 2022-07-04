@@ -9,3 +9,6 @@
  gw_aa:0 "前大戦型榴弾砲"
  artillery_equipment:0 "野砲"
  gw_artillery_0:0 "前大戦型野砲"
+  # Equipment
+anti_tank_infantry_equipment:0 "個人用対戦車火器"
+anti_tank_infantry_equipment_1:0 "個人用対戦車火器 I"

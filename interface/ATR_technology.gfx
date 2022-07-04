@@ -1,0 +1,126 @@
+SpriteTypes = {
+	SpriteType = {
+		name = "GFX_small_howitzer_1"
+		texturefile = "gfx/interface/technologies/artillery_tech/aa_1.png"
+	}
+	SpriteType = {
+		name = "GFX_small_howitzer_2"
+		texturefile = "gfx/interface/technologies/artillery_tech/aa_2.png"
+	}		
+	SpriteType = {
+		name = "GFX_small_howitzer_3"
+		texturefile = "gfx/interface/technologies/artillery_tech/aa_3.png"
+	}		
+	SpriteType = {
+		name = "GFX_small_howitzer_4"
+		texturefile = "gfx/interface/technologies/artillery_tech/aa_4.png"
+	}		
+	SpriteType = {
+		name = "GFX_small_howitzer_5"
+		texturefile = "gfx/interface/technologies/artillery_tech/aa_5.png"
+	}		
+	SpriteType = {
+		name = "GFX_small_howitzer_6"
+		texturefile = "gfx/interface/technologies/artillery_tech/aa_6.png"
+	}		
+	SpriteType = {
+		name = "GFX_small_howitzer_7"
+		texturefile = "gfx/interface/technologies/artillery_tech/aa_7.png"
+	}		
+	SpriteType = {
+		name = "GFX_small_howitzer_8"
+		texturefile = "gfx/interface/technologies/artillery_tech/aa_8.png"
+	}		
+	SpriteType = {
+		name = "GFX_gw_aa_medium"
+		texturefile = "gfx/interface/technologies/artillery_tech/gw_at.png"
+	}
+	SpriteType = {
+		name = "GFX_gw_artillery_equipment_0"
+		texturefile = "gfx/interface/technologies/artillery_tech/gw_at_1.png"
+	}
+	SpriteType = {
+		name = "GFX_gw_artillery_equipment_1"
+		texturefile = "gfx/interface/technologies/artillery_tech/gw_at_2.png"
+	}
+	SpriteType = {
+		name = "GFX_gw_artillery_equipment_0"
+		texturefile = "gfx/interface/technologies/artillery_tech/gw_at_1.png"
+	}
+	SpriteType = {
+		name = "GFX_gw_artillery_equipment_1"
+		texturefile = "gfx/interface/technologies/artillery_tech/gw_at_2.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_1"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_1.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_2"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_2.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_3"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_3.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_4"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_4.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_5"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_5.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_6"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_6.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_7"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_7.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_8"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_8.png"
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_equipment_9"
+		texturefile = "gfx/interface/technologies/artillery_tech/ati_9.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_1.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_2"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_2.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_3"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_3.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_4"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_4.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_5"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_5.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_6"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_6.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_7"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_7.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_8"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_8.png"
+	}
+	SpriteType = {
+		name = "GFX_SM_anti_air_8"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_8.png"
+	}
+}	
