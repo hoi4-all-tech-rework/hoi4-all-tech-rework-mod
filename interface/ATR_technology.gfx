@@ -123,4 +123,8 @@ SpriteTypes = {
 		name = "GFX_SM_anti_air_8"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/anti_air/sm_aa_8.png"
 	}
+	SpriteType = {
+		name = "GFX_remodeling_ships_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/shup.png"
+	}
 }	
