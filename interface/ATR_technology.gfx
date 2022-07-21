@@ -127,4 +127,44 @@ SpriteTypes = {
 		name = "GFX_remodeling_ships_medium"
 		texturefile = "gfx/interface/technologies/navy_tech/shup.png"
 	}
+	SpriteType = {
+		name = "GFX_tp_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_1.png"
+	}
+	SpriteType = {
+		name = "GFX_tp_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_2.png"
+	}
+	SpriteType = {
+		name = "GFX_tp_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_3.png"
+	}
+	SpriteType = {
+		name = "GFX_tp_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_4.png"
+	}
+	SpriteType = {
+		name = "GFX_tp_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_5.png"
+	}
+	SpriteType = {
+		name = "GFX_tp_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_6.png"
+	}
+	SpriteType = {
+		name = "GFX_tp_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_7.png"
+	}
+	SpriteType = {
+		name = "GFX_tp_8_medium"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_8.png"
+	}
+	SpriteType = {
+		name = "GFX_ship_torpedo_0"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_bow.png"
+	}
+	SpriteType = {
+		name = "GFX_ship_torpedo_0_B"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_side.png"
+	}
 }	

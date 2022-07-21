@@ -2083,7 +2083,7 @@ guiTypes = {
             }
             instantTextBoxType = {
                 name = "naval_subtitle_armaments"
-                position = { x = 30 y = 1370 }
+                position = { x = 900 y = 1470 }
                 textureFile = ""
                 font = "hoi_33"
                 borderSize = { x = 0 y = 4 }
@@ -2161,6 +2161,23 @@ guiTypes = {
             gridboxtype = {
                 name = "early_ship_hulls_tree"
                 position = { x = 150 y = 500 }
+                size = { width = 100 height = 140 }
+                slotsize = { width = 70 height = 70 }
+                format = "LEFT"
+            }
+            smoke_generator
+
+            gridboxtype = {
+                name = "early_depth_charges_tree"
+                position = { x = 900 y = 1500 }
+                size = { width = 100 height = 140 }
+                slotsize = { width = 70 height = 70 }
+                format = "LEFT"
+            }
+
+            gridboxtype = {
+                name = "early_depth_charges_tree"
+                position = { x = 900 y = 1500 }
                 size = { width = 100 height = 140 }
                 slotsize = { width = 70 height = 70 }
                 format = "LEFT"
