@@ -167,4 +167,36 @@ SpriteTypes = {
 		name = "GFX_ship_torpedo_0_B"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/torpedo/ssw_tp_side.png"
 	}
+	SpriteType = {
+		name = "GFX_early_depth_charges_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_1.png"
+	}
+	SpriteType = {
+		name = "GFX_basic_depth_charges_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_2.png"
+	}
+	SpriteType = {
+		name = "GFX_basic_depth_charges_1_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_3.png"
+	}
+	SpriteType = {
+		name = "GFX_improved_depth_charges_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_4.png"
+	}
+	SpriteType = {
+		name = "GFX_advanced_depth_charges_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_5.png"
+	}
+	SpriteType = {
+		name = "GFX_advanced_depth_charges_B_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_6.png"
+	}
+	SpriteType = {
+		name = "GFX_modern_depth_charges_B_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_7.png"
+	}
+	SpriteType = {
+		name = "GFX_modern_depth_charges_2_B_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_8.png"
+	}
 }	
