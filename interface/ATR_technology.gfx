@@ -199,4 +199,8 @@ SpriteTypes = {
 		name = "GFX_modern_depth_charges_2_B_medium"
 		texturefile = "gfx/interface/technologies/navy_tech/atrm_dc_8.png"
 	}
+	SpriteType = {
+		name = "GFX_modern_early_ship_hulls_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/ship_hull_es.png"
+	}
 }	
