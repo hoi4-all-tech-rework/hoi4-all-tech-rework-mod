@@ -37,6 +37,7 @@ technology_categories = {
 	# Naval
 	naval_equipment
 	ship_modules_tech
+	bo_tech
 	dd_tech
 	cl_tech
 	ca_tech

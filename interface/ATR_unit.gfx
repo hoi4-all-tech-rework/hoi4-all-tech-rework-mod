@@ -1,0 +1,52 @@
+SpriteTypes = {
+	SpriteType = {
+		name = "GFX_unit_boat_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/FF/PF.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_mine_boat_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/FF/PC.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_torpedo_boat_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/FF/PT.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_gunboat_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/FF/PG.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_monitor_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/CL/BM.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_lage_cruiser_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/CA/LC.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_seaplane_carrier_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/CV/AV.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_ironclad_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/CA/ACR.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_armored_cruiser_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/CA/ACR.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_unit_coastal_battleship_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/CL/CDB.png"
+		noOfFrames = 2
+	}
+}

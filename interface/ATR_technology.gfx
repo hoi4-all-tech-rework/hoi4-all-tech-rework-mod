@@ -203,4 +203,48 @@ SpriteTypes = {
 		name = "GFX_modern_early_ship_hulls_medium"
 		texturefile = "gfx/interface/technologies/navy_tech/hull/ship_hull_es.png"
 	}
+	SpriteType = {
+		name = "GFX_boat_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/boat_0.png"
+	}
+	SpriteType = {
+		name = "GFX_boat_1_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/boat_3.png"
+	}
+	SpriteType = {
+		name = "GFX_boat_2_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/boat_1.png"
+	}
+	SpriteType = {
+		name = "GFX_boat_1_M_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/boat_2.png"
+	}
+	SpriteType = {
+		name = "GFX_boat_1_T_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/boat_2.png"
+	}	
+	SpriteType = {
+		name = "GFX_ship_hull_coastal_battleship_1_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/ship_hull_es.png"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_coastal_battleship_2_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/ship_hull_es.png"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_coastal_battleship_3_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/SWE_ship_hull_cruiser_coastal_defense_ship.png"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_coastal_battleship_4_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/SWE_ship_hull_cruiser_coastal_defense_ship.png"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_coastal_battleship_5_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/ship_hull_cruiser_coastal_defense_ship_2.png"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_coastal_battleship_6_medium"
+		texturefile = "gfx/interface/technologies/navy_tech/hull/ship_hull_cruiser_coastal_defense_ship_2.png"
+	}
 }	
