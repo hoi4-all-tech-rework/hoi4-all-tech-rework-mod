@@ -50,6 +50,7 @@ equipments = {
 			steel = 1
 		}
 	}
+
 	#攻城砲
 	siege_artillery_equipment ={
 		year = 1900
@@ -101,5 +102,6 @@ equipments = {
 		}
 		visual_level = 0
 	}
+
 
 }

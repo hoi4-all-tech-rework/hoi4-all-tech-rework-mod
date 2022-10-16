@@ -175,6 +175,28 @@ equipment_modules = {
 				convert_cost_ic = 50
 			}
 		}
+
+		SM_anti_air_9 = {#37mm
+			category = ship_anti_air
+			sfx = sfx_ui_sd_module_turret
+			add_equipment_type = anti_air
+			
+			add_stats = {
+				anti_air_attack = 12
+				build_cost_ic = 80
+			}
+			
+			multiply_stats = {
+				build_cost_ic = 0.012
+				anti_air_attack = 0.075
+				naval_speed = -0.0052
+			}
+
+			can_convert_from = {
+				module_category = ship_anti_air
+				convert_cost_ic = 50
+			}
+		}
 	#####Torpedo#####
 
 		ship_torpedo_0_B = {
