@@ -1,8 +1,8 @@
 sub_units = {
 
-	anti_tank_infantry = {
+	anti_tank = {
 		abbreviation = "AT"
-		sprite = anti_tank_infantry
+		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
@@ -26,7 +26,7 @@ sub_units = {
 		combat_width = 0
 
 		need = {
-			anti_tank_infantry_equipment = 300
+			anti_tank_equipment = 24
 		}
 		manpower = 300
 		max_organisation = 0
@@ -40,11 +40,11 @@ sub_units = {
 		supply_consumption = 0.08
 
 		# Support nerfs to combat abilities
-		defense = 0.25
+		defense = -0.5
 		breakthrough = -0.5
 		soft_attack = -0.5
-		hard_attack = 0.25
-		ap_attack = 0.15
+		hard_attack = -0.5
+		ap_attack = -0.15
 	}
 	
 }

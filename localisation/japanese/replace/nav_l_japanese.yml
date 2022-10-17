@@ -21,3 +21,8 @@ ship_hull_coastal_battleship_3:0 "海防戦艦 I"
 ship_hull_coastal_battleship_4:0 "海防戦艦 II"
 ship_hull_coastal_battleship_5:0 "海防戦艦 III"
 ship_hull_coastal_battleship_6:0 "海防戦艦 IV"
+#対空砲じゃ１
+t1_ship_anti_air_gun:0 "ティア1対空砲"
+t2_ship_anti_air_gun:0 "ティア2対空砲"
+t3_ship_anti_air_gun:0 "ティア3対空砲"
+t4_ship_anti_air_gun:0 "ティア4対空砲"

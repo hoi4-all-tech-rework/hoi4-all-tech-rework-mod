@@ -1,5 +1,5 @@
 technologies = {
-	# カノン砲系列
+	# 大型砲・榴弾砲系列
 	gw_howitzer = {
 		research_cost = 1.5
 		
@@ -128,7 +128,7 @@ technologies = {
 		}
 	}
 	
-	# 榴弾砲系列
+	# 小型砲系列
 	gw_aa = {
 		research_cost = 1.5
 		
@@ -153,7 +153,9 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_anti_air_gun_1
+			#ship_light_battery_0
 			SM_anti_air_1
+			dp_light_battery_0
 		}
 		ai_will_do = {
 			factor = 2
@@ -255,6 +257,10 @@ technologies = {
 		research_cost = 1.0
 		path = {
 			leads_to_tech = small_howitzer_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_howitzer_3
 			research_cost_coeff = 1
 		}
 		enable_equipments ={
@@ -379,6 +385,10 @@ technologies = {
 			SM_anti_air_7
 			ship_anti_air_gun_7
 		}
+		path = {
+			leads_to_tech = large_howitzer_6
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = artillery_folder
 			position = { x = -2 y = 12 }
@@ -482,17 +492,60 @@ technologies = {
 	large_howitzer_1 = {
 		research_cost = 1.0
 		enable_equipments = {
-
+			flak_artillery
+			FLAK_equipment_1
 		}
 		enable_equipment_modules = {
-			
+			#ship_light_battery_1
+			dp_light_battery_1
+			dp_secondary_battery_1
 		}
+
 		folder = {
 			name = artillery_folder
 			position = { x = 2 y = 2 }
 		}
 		path = {
 			leads_to_tech = large_howitzer_2
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.6"
+			}
+		}
+	}
+
+	large_howitzer_2 = {
+		research_cost = 1.0
+		enable_equipments = {
+			FLAK_equipment_2
+		}
+		enable_equipment_modules = {
+			#ship_light_battery_2
+			dp_light_battery_2
+			dp_secondary_battery_2
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 4 }
+		}
+		path = {
+			leads_to_tech = large_howitzer_3
 			research_cost_coeff = 1
 		}
 		ai_will_do = {
@@ -514,19 +567,219 @@ technologies = {
 			}
 		}
 	}
-	large_howitzer_2 = {
+	large_howitzer_3 = {
 		research_cost = 1.0
 		enable_equipments = {
-
+			FLAK_equipment_3
 
 		}
 		enable_equipment_modules = {
-			ship_anti_air_gun_1
+			#ship_light_battery_3
+			dp_light_battery_3
+			dp_secondary_battery_3
 		}
 		folder = {
 			name = artillery_folder
-			position = { x = 2 y = 4 }
+			position = { x = 2 y = 6 }
 		}
+		path = {
+			leads_to_tech = small_howitzer_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_howitzer_4
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.6"
+			}
+		}
+	}
+	large_howitzer_4 = {
+		research_cost = 1.0
+		enable_equipments = {
+
+			FLAK_equipment_4
+		}
+		enable_equipment_modules = {
+			#ship_light_battery_4
+			dp_light_battery_4
+			dp_secondary_battery_4
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 8 }
+		}
+		path = {
+			leads_to_tech = large_howitzer_5
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.6"
+			}
+		}
+	}
+	large_howitzer_5 = {
+		research_cost = 1.0
+		enable_equipments = {
+
+			FLAK_equipment_5
+		}
+		enable_equipment_modules = {
+			#ship_light_battery_5
+			dp_light_battery_5
+			dp_secondary_battery_5
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 10 }
+		}
+		path = {
+			leads_to_tech = large_howitzer_6
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.6"
+			}
+		}
+	}
+	large_howitzer_6 = {
+		research_cost = 1.0
+		enable_equipments = {
+
+			FLAK_equipment_6
+		}
+		enable_equipment_modules = {
+			#ship_light_battery_6
+			dp_light_battery_6
+			dp_secondary_battery_6
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 12 }
+		}
+		path = {
+			leads_to_tech = small_howitzer_6
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = large_howitzer_7
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.6"
+			}
+		}
+	}
+	large_howitzer_7 = {
+		research_cost = 1.0
+		enable_equipments = {
+			FLAK_equipment_7
+		}
+		enable_equipment_modules = {
+			#ship_light_battery_7
+			dp_light_battery_7
+			dp_secondary_battery_7
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 14 }
+		}
+		path = {
+			leads_to_tech = large_howitzer_8
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.6"
+			}
+		}
+	}
+	large_howitzer_8 = {
+		research_cost = 1.0
+		enable_equipments = {
+			FLAK_equipment_8
+		}
+		enable_equipment_modules = {
+			#ship_light_battery_8
+			dp_light_battery_8
+			dp_secondary_battery_8
+		}
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 16 }
+		}
+
 		ai_will_do = {
 			factor = 2
 			
