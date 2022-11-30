@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EMSI_ship_fuel_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/icons/fuel.png"
+	}
+}

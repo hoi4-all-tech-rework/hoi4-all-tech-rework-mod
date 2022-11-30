@@ -29,6 +29,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/Flame.png"
 	}
 	spriteType = {
+		name = "GFX_equipment_module_bg_nav_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/Flame_2.png"
+	}
+	spriteType = {
 		name = "GFX_locked_icon_nav"
 		textureFile = "gfx/interface/equipmentdesigner/naval/lock.png"
 	}
@@ -83,8 +87,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_cruiser.dds"
 	}
 	spriteType = {
-		name = "GFX_SD_tv_carrier"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_carrier.png"
+		name = "GFX_SD_tv_carrier_new"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_carrier_new.png"
 	}
 	spriteType = {
 		name = "GFX_SD_tv_heavy"
