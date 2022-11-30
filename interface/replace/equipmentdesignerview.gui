@@ -68,7 +68,7 @@ guiTypes = {
 			buttonType = {
 				name = "btn_equipment_icon"
 				position = { x = 0 y = 0 }
-				spriteType = "GFX_locked_icon"
+				spriteType = "GFX_locked_icon_nav"
 				Orientation = "CENTER"
 				centerPosition = yes
 				clicksound = "ui_ship_designer_equipment_icon"
@@ -137,18 +137,17 @@ guiTypes = {
 			######################################################################
 			# Equipment upgrades
 			######################################################################
-			@upgrade_btn = 3
-			@upgrade_btn_0 = 20
+			@upgrade_btn = 0
 			@upgrade_btn_1 = 80
 			@upgrade_btn_2 = 140
 			@upgrade_btn_3 = 200
 			@upgrade_btn_4 = 260
 			containerWindowType = {
 				name = "equipment_upgrade"
-				position = { x = @upgrade_btn y = @upgrade_btn_0 }
+				position = { x = 3 y = 20 }
 				size = { width = 130 height = 50 } 
 				instantTextboxType = {
-					name = "level"
+					name = "desc"
 					position = { x = 0 y = 0 }
 					font = "hoi_18mbs"
 					maxWidth = 128
@@ -327,11 +326,11 @@ guiTypes = {
 				}
 
 			}
-		######################################################################			
+			######################################################################			
 		}
 		containerWindowType = {
 			name = "equipment_modules"
-			position = { x=10 y=120 }
+			position = { x=11 y=121 }
 			size = { width=841 height= 481}
 
 			background = {
@@ -360,16 +359,15 @@ guiTypes = {
 			@fixed_btn_mod_col_4 = 293
 			@fixed_btn_mod_col_5 = 366
 			@fixed_btn_mod_col_6 = 439
-			#SSW追加分
 			@fixed_btn_mod_col_7 = 512
 			@fixed_btn_mod_col_8 = 585
 
 
 			@fixed_btn_mod_row_icon = 300
-			@fixed_btn_mod_row_button = 302
+			@fixed_btn_mod_row_button = 300
 
 			@custom_btn_mod_row_icon = 0
-			@custom_btn_mod_row_button = 2
+			@custom_btn_mod_row_button = 0
 
 									
 			# Position used to check if module is in top or bottom row 
@@ -466,226 +464,229 @@ guiTypes = {
 					name = "pos_fixed_module_slot_window_8"
 					position = { x=@fixed_btn_mod_col_8 y=@fixed_btn_mod_row_icon }
 				}
+
+
+
 				#before NSB
 				iconType = {
 					name = "icn_custom_module_0"
 					position = { x=@fixed_btn_mod_col_0 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_0"
 					position = { x=@fixed_btn_mod_col_0 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 
 				iconType = {
 					name = "icn_custom_module_1"
 					position = { x=@fixed_btn_mod_col_1 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_1"
 					position = { x=@fixed_btn_mod_col_1 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 
 				iconType = {
 					name = "icn_custom_module_2"
 					position = { x=@fixed_btn_mod_col_2 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_2"
 					position = { x=@fixed_btn_mod_col_2 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 
 				iconType = {
 					name = "icn_custom_module_3"
 					position = { x=@fixed_btn_mod_col_3 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_3"
 					position = { x=@fixed_btn_mod_col_3 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 
 				iconType = {
 					name = "icn_custom_module_4"
 					position = { x=@fixed_btn_mod_col_4 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_4"
 					position = { x=@fixed_btn_mod_col_4 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 
 				iconType = {
 					name = "icn_custom_module_5"
 					position = { x=@fixed_btn_mod_col_5 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_5"
 					position = { x=@fixed_btn_mod_col_5 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 
 				iconType = {
 					name = "icn_custom_module_6"
 					position = { x=@fixed_btn_mod_col_6 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_6"
 					position = { x=@fixed_btn_mod_col_6 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 				iconType = {
 					name = "icn_custom_module_7"
 					position = { x=@fixed_btn_mod_col_7 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_7"
 					position = { x=@fixed_btn_mod_col_7 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 				iconType = {
 					name = "icn_custom_module_8"
 					position = { x=@fixed_btn_mod_col_8 y=@custom_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_custom_module_8"
 					position = { x=@fixed_btn_mod_col_8 y=@custom_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 					pdx_tooltip_anchor = { below = no }
 				}
 
 				iconType = {
 					name = "icn_fixed_module_0"
 					position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_0"
 					position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 
 				iconType = {
 					name = "icn_fixed_module_1"
 					position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_1"
 					position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 
 				iconType = {
 					name = "icn_fixed_module_2"
 					position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_2"
 					position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 
 				iconType = {
 					name = "icn_fixed_module_3"
 					position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_3"
 					position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 
 				iconType = {
 					name = "icn_fixed_module_4"
 					position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_4"
 					position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 
 				iconType = {
 					name = "icn_fixed_module_5"
 					position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_5"
 					position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 
 				iconType = {
 					name = "icn_fixed_module_6"
 					position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_6"
 					position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 				iconType = {
 					name = "icn_fixed_module_7"
 					position = { x=@fixed_btn_mod_col_7 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_7"
 					position = { x=@fixed_btn_mod_col_7 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 				iconType = {
 					name = "icn_fixed_module_8"
 					position = { x=@fixed_btn_mod_col_8 y=@fixed_btn_mod_row_icon }
-					spriteType = "GFX_equipment_module_bg"
+					spriteType = "GFX_equipment_module_bg_nav"
 				}
 
 				buttonType = {
 					name = "btn_fixed_module_8"
 					position = { x=@fixed_btn_mod_col_8 y=@fixed_btn_mod_row_button }
-					spriteType = "GFX_locked_icon"
+					spriteType = "GFX_locked_icon_nav"
 				}
 	
 
@@ -1207,6 +1208,7 @@ guiTypes = {
 				# }
 			}
 		}
+
 		buttonType = {
 			name = "toggle_comparison_button"
 			position = {x=-97 y=4}
@@ -1279,16 +1281,14 @@ guiTypes = {
 			iconType = {
 				name = "icn_module_slot_frame"
 				position = { x=17 y=14 }
-				spriteType = "GFX_equipment_module_bg"
+				spriteType = "GFX_equipment_module_bg_nav"
 			}
 			
 			iconType = {
 				name = "icon_module_slot"
-				position = { x=17 y=18 }
-				#size = { width=76 height=47 }
-				spriteType = "GFX_locked_icon"
-				#Orientation = "CENTER"
-				#centerPosition = yes
+				position = { x=17 y=14 }
+				# size = { width=0 height=0 }
+				spriteType = "GFX_locked_icon_nav"
 			}
 			
 			instantTextboxType = {
@@ -1310,7 +1310,7 @@ guiTypes = {
 			}
 			gridBoxType = {
 				name = "gb_modules"
-				position = { x=17 y=70 }
+				position = { x=17 y=80 }
 				size = { width=510 height=10 }
 				slotsize = { width = 247 height = 69 }
 				max_slots_horizontal = 2
@@ -1947,22 +1947,21 @@ guiTypes = {
 		}
 
 	}
-
 	containerWindowType = {
 		name = "equipment_designer_module_slot_entry"
 		position = { x=0 y=0 }
-		size = { width=76 height=47 } # Size of icn_module_slot_frame. Important for centering btn_module_slot.
+		size = { width=76 height=76 } # Size of icn_module_slot_frame. Important for centering btn_module_slot.
 
 		iconType = {
 			name = "icn_module_slot_frame"
 			position = { x=0 y=0 }
-			spriteType = "GFX_equipment_module_bg"
+			spriteType = "GFX_equipment_module_bg_nav"
 		}
 
 		buttonType = {
 			name = "btn_module_slot"
 			position = { x=0 y=0 }
-			spriteType = "GFX_locked_icon"
+			spriteType = "GFX_locked_icon_nav"
 			Orientation = "CENTER"
 			centerPosition = yes
 			clicksound = "ui_ship_designer_company_icon" #This is a button for clicking into ANY of the modules.
@@ -1974,6 +1973,7 @@ guiTypes = {
 			spriteType = "GFX_module_requirements"
 			alwaystransparent = yes
 		}
+
 		iconType = {
 			name = "icn_warning"
 			position = { x=-14 y=-18 }
@@ -1981,6 +1981,7 @@ guiTypes = {
 			Orientation = "LOWER_RIGHT"
 			alwaystransparent = yes
 		}
-	}
 
+	}
+	
 }
