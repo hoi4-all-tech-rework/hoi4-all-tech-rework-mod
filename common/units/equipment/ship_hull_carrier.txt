@@ -38,12 +38,14 @@ equipments = {
 				allowed_module_categories = {
 					carrier_ship_engine
 				}
+				gfx = ship_engine_slot
 			}
 			fixed_ship_engine_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					carrier_ship_engine
 				}
+				gfx = ship_engine_slot
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
@@ -51,6 +53,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 				}
+				gfx = ship_secondaries_slot
 			}
 			fixed_ship_secondaries_slot_2 = {
 				required = no
@@ -58,6 +61,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 				}
+				gfx = ship_secondaries_slot
 			}
 			fixed_ship_secondaries_slot_3 = {
 				required = no
@@ -65,6 +69,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 				}
+				gfx = ship_secondaries_slot
 			}
 			fixed_ship_secondaries_slot_4 = {
 				required = no
@@ -72,6 +77,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 				}
+				gfx = ship_secondaries_slot
 			}
 			fixed_ship_secondaries_slot_5 = {
 				required = no
@@ -79,12 +85,14 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 				}
+				gfx = ship_secondaries_slot
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
 				}
+				gfx = ship_anti_air_slot
 			}
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -106,41 +114,47 @@ equipments = {
 				allowed_module_categories = {
 					ship_heavy_armor
 				}
+				gfx = shpi_armor_slot
 			}
 			fixed_ship_armor_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					ship_heavy_armor
 				}
+				gfx = shpi_armor_slot
 			}
 			fixed_ship_bow_slot_1 = {
 				required = no
 				allowed_module_categories = {
 				}
+				gfx = ship_bow_slot
 			}
 			fixed_ship_bow_slot_2 = {
 				required = no
 				allowed_module_categories = {
 				}
+				gfx = ship_bow_slot
 			}
 			fixed_ship_fire_control_system_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					ship_fire_control_system
-					ship_sonar
 				}
+				gfx = ship_fire_control_system_slot
 			}
 			fixed_ship_radar_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_radar
 				}
+				gfx = ship_radar_slot
 			}
 			fixed_ship_sonar_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_sonar
 				}
+				gfx = ship_sonar_slot
 			}
 			########################################
 			main_weapon_slot_1 = {
@@ -149,6 +163,7 @@ equipments = {
 					ship_deck_space
 					ship_carrier_armor
 				}
+				gfx = main_weapon_slot
 			}
 			main_weapon_slot_2 = {
 				required = no
@@ -156,6 +171,7 @@ equipments = {
 					ship_deck_space
 					ship_carrier_armor
 				}
+				gfx = main_weapon_slot
 			}
 			main_weapon_slot_3 = {
 				required = no
@@ -163,6 +179,7 @@ equipments = {
 					ship_deck_space
 					ship_carrier_armor
 				}
+				gfx = main_weapon_slot
 			}
 			main_weapon_slot_4 = {
 				required = no
@@ -170,6 +187,7 @@ equipments = {
 					ship_deck_space
 					ship_carrier_armor
 				}
+				gfx = main_weapon_slot
 			}
 			mid_1_custom_slot = {
 				required = no
@@ -179,6 +197,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 				}
+				gfx = main_sub_weapon_slot
 			}
 			mid_2_custom_slot = {
 				required = no
@@ -188,6 +207,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 				}
+				gfx = main_sub_weapon_slot
 			}
 			mid_3_custom_slot = {
 				required = no
@@ -197,33 +217,39 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 				}
+				gfx = main_sub_weapon_slot
 			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
 				}
+				gfx = rear_slot
 			}
 			rear_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
 				}
+				gfx = rear_slot
 			}
 			optional_slot_1 = {
 				required = no
 				allowed_module_categories = {
 				}
+				gfx = optional_slot
 			}
 			optional_slot_2 = {
 				required = no
 				allowed_module_categories = {
 				}
+				gfx = optional_slot
 			}
 			optional_slot_3 = {
 				required = no
 				allowed_module_categories = {
 				}
+				gfx = optional_slot
 			}
 			front_1_custom_slot = {
 				required = no
@@ -233,6 +259,7 @@ equipments = {
 					ship_light_battery
 					dp_light_battery
 				}
+				gfx = front_slot
 			}
 			front_2_custom_slot = {
 				required = no
@@ -247,16 +274,19 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 				}
+				gfx = optional_slot
 			}
 			optional_slot_5 = {
 				required = no
 				allowed_module_categories = {
 				}
+				gfx = optional_slot
 			}
 			optional_slot_6 = {
 				required = no
 				allowed_module_categories = {
 				}
+				gfx = optional_slot
 			}
 		}
 		module_count_limit = {

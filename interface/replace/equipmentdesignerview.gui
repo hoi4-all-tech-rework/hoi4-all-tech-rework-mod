@@ -113,6 +113,291 @@ guiTypes = {
 
 		# window with the equipment preview and the buttons to select the modules
 		containerWindowType = {
+			name = "equipment_upgrade"
+			position = { x=841 y=121 }
+			size = { width=131 height= 481}
+			#############################################
+			######################################################################
+			# Equipment upgrades
+			######################################################################
+			@upgrade_btn = 3
+			@upgrade_btn_1 = 80
+			@upgrade_btn_2 = 140
+			@upgrade_btn_3 = 200
+			@upgrade_btn_4 = 260
+			@upgrade_btn_5 = 300
+			@upgrade_btn_6 = 340
+			containerWindowType = {
+				name = "equipment_upgrade"
+				position = { x = 844 y = 20 }
+				size = { width = 130 height = 50 } 
+				instantTextboxType = {
+					name = "desc"
+					position = { x = 0 y = 0 }
+					font = "hoi_18mbs"
+					maxWidth = 128
+					maxHeight = 30
+					format = center
+					fixedsize = yes
+					vertical_alignment = center
+					text = "RESEARCH_UPGRADES_HEADER"
+				}
+			}
+			containerWindowType = {
+				name = "equipment_upgrade_0"
+				position = { x = @upgrade_btn y = @upgrade_btn_1 }
+				size = { width = 130 height = 50 } 
+			
+				buttonType = {
+					name = "btn_dec"
+					quadTextureSprite ="GFX_naval_decrease_amount"
+					position = { x = 10 y = 17 }
+					clicksound = "ui_tank_designer_decrease"
+				}
+
+				buttonType = {
+					name = "btn_inc"
+					quadTextureSprite ="GFX_naval_increase_amount"
+					position = { x = 70 y = 17 }
+					clicksound = "ui_tank_designer_increase"
+				}
+				
+
+				instantTextboxType = {
+					name = "name"
+					position = { x = 11 y = 0 }
+					font = "hoi_18mbs"
+					maxWidth = 90
+					maxHeight = 20
+					format = center
+					text = "_engine_"
+				}
+
+				instantTextboxType = {
+					name = "level"
+					position = { x = 42 y = 18 }
+					font = "hoi_18mbs"
+					maxWidth = 28
+					maxHeight = 30
+					format = center
+					vertical_alignment = center
+					text = "99"
+				}
+
+			}
+			containerWindowType = {
+				name = "equipment_upgrade_1"
+				position = { x = @upgrade_btn y = @upgrade_btn_2 }
+				size = { width = 130 height = 50 } 
+			
+				buttonType = {
+					name = "btn_dec"
+					quadTextureSprite ="GFX_naval_decrease_amount"
+					position = { x = 10 y = 17 }
+					clicksound = "ui_tank_designer_decrease"
+				}
+
+				buttonType = {
+					name = "btn_inc"
+					quadTextureSprite ="GFX_naval_increase_amount"
+					position = { x = 70 y = 17 }
+					clicksound = "ui_tank_designer_increase"
+				}
+				
+
+				instantTextboxType = {
+					name = "name"
+					position = { x = 11 y = 0 }
+					font = "hoi_18mbs"
+					maxWidth = 90
+					maxHeight = 20
+					format = center
+					text = "_engine_"
+				}
+
+				instantTextboxType = {
+					name = "level"
+					position = { x = 42 y = 18 }
+					font = "hoi_18mbs"
+					maxWidth = 28
+					maxHeight = 30
+					format = center
+					vertical_alignment = center
+					text = "99"
+				}
+
+			}
+			containerWindowType = {
+				name = "equipment_upgrade_2"
+				position = { x = @upgrade_btn y = @upgrade_btn_3 }
+				size = { width = 130 height = 50 } 
+			
+				buttonType = {
+					name = "btn_dec"
+					quadTextureSprite ="GFX_naval_decrease_amount"
+					position = { x = 10 y = 17 }
+					clicksound = "ui_tank_designer_decrease"
+				}
+
+				buttonType = {
+					name = "btn_inc"
+					quadTextureSprite ="GFX_naval_increase_amount"
+					position = { x = 70 y = 17 }
+					clicksound = "ui_tank_designer_increase"
+				}
+				
+
+				instantTextboxType = {
+					name = "name"
+					position = { x = 11 y = 0 }
+					font = "hoi_18mbs"
+					maxWidth = 90
+					maxHeight = 20
+					format = center
+					text = "_engine_"
+				}
+
+				instantTextboxType = {
+					name = "level"
+					position = { x = 42 y = 18 }
+					font = "hoi_18mbs"
+					maxWidth = 28
+					maxHeight = 30
+					format = center
+					vertical_alignment = center
+					text = "99"
+				}
+
+			}
+			containerWindowType = {
+				name = "equipment_upgrade_3"
+				position = { x = @upgrade_btn y = @upgrade_btn_4 }
+				size = { width = 130 height = 50 } 
+			
+				buttonType = {
+					name = "btn_dec"
+					quadTextureSprite ="GFX_naval_decrease_amount"
+					position = { x = 10 y = 17 }
+					clicksound = "ui_tank_designer_decrease"
+				}
+
+				buttonType = {
+					name = "btn_inc"
+					quadTextureSprite ="GFX_naval_increase_amount"
+					position = { x = 70 y = 17 }
+					clicksound = "ui_tank_designer_increase"
+				}
+				
+
+				instantTextboxType = {
+					name = "name"
+					position = { x = 11 y = 0 }
+					font = "hoi_18mbs"
+					maxWidth = 90
+					maxHeight = 20
+					format = center
+					text = "_engine_"
+				}
+
+				instantTextboxType = {
+					name = "level"
+					position = { x = 42 y = 18 }
+					font = "hoi_18mbs"
+					maxWidth = 28
+					maxHeight = 30
+					format = center
+					vertical_alignment = center
+					text = "99"
+				}
+
+			}
+			containerWindowType = {
+				name = "equipment_upgrade_4"
+				position = { x = @upgrade_btn y = @upgrade_btn_5 }
+				size = { width = 130 height = 50 } 
+			
+				buttonType = {
+					name = "btn_dec"
+					quadTextureSprite ="GFX_naval_decrease_amount"
+					position = { x = 10 y = 17 }
+					clicksound = "ui_tank_designer_decrease"
+				}
+
+				buttonType = {
+					name = "btn_inc"
+					quadTextureSprite ="GFX_naval_increase_amount"
+					position = { x = 70 y = 17 }
+					clicksound = "ui_tank_designer_increase"
+				}
+				
+
+				instantTextboxType = {
+					name = "name"
+					position = { x = 11 y = 0 }
+					font = "hoi_18mbs"
+					maxWidth = 90
+					maxHeight = 20
+					format = center
+					text = "_engine_"
+				}
+
+				instantTextboxType = {
+					name = "level"
+					position = { x = 42 y = 18 }
+					font = "hoi_18mbs"
+					maxWidth = 28
+					maxHeight = 30
+					format = center
+					vertical_alignment = center
+					text = "99"
+				}
+
+			}
+			containerWindowType = {
+				name = "equipment_upgrade_5"
+				position = { x = @upgrade_btn y = @upgrade_btn_6 }
+				size = { width = 130 height = 50 } 
+			
+				buttonType = {
+					name = "btn_dec"
+					quadTextureSprite ="GFX_naval_decrease_amount"
+					position = { x = 10 y = 17 }
+					clicksound = "ui_tank_designer_decrease"
+				}
+
+				buttonType = {
+					name = "btn_inc"
+					quadTextureSprite ="GFX_naval_increase_amount"
+					position = { x = 70 y = 17 }
+					clicksound = "ui_tank_designer_increase"
+				}
+				
+
+				instantTextboxType = {
+					name = "name"
+					position = { x = 11 y = 0 }
+					font = "hoi_18mbs"
+					maxWidth = 90
+					maxHeight = 20
+					format = center
+					text = "_engine_"
+				}
+
+				instantTextboxType = {
+					name = "level"
+					position = { x = 42 y = 18 }
+					font = "hoi_18mbs"
+					maxWidth = 28
+					maxHeight = 30
+					format = center
+					vertical_alignment = center
+					text = "99"
+				}
+
+			}
+		}
+
+		containerWindowType = {
 			name = "equipment_modules"
 			position = { x=11 y=121 }
 			size = { width=841 height= 481}
@@ -809,285 +1094,7 @@ guiTypes = {
 						spriteType = "GFX_locked_icon_nav"
 					}				
 				##
-			#############################################
-						######################################################################
-			# Equipment upgrades
-			######################################################################
-			@upgrade_btn = 844
-			@upgrade_btn_1 = 80
-			@upgrade_btn_2 = 140
-			@upgrade_btn_3 = 200
-			@upgrade_btn_4 = 260
-			@upgrade_btn_5 = 300
-			@upgrade_btn_6 = 340
-			containerWindowType = {
-				name = "equipment_upgrade"
-				position = { x = 844 y = 20 }
-				size = { width = 130 height = 50 } 
-				instantTextboxType = {
-					name = "desc"
-					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
-					maxWidth = 128
-					maxHeight = 30
-					format = center
-					fixedsize = yes
-					vertical_alignment = center
-					text = "RESEARCH_UPGRADES_HEADER"
-				}
-			}
-			containerWindowType = {
-				name = "equipment_upgrade_0"
-				position = { x = @upgrade_btn y = @upgrade_btn_1 }
-				size = { width = 130 height = 50 } 
-			
-				buttonType = {
-					name = "btn_dec"
-					quadTextureSprite ="GFX_naval_decrease_amount"
-					position = { x = 10 y = 17 }
-					clicksound = "ui_tank_designer_decrease"
-				}
 
-				buttonType = {
-					name = "btn_inc"
-					quadTextureSprite ="GFX_naval_increase_amount"
-					position = { x = 70 y = 17 }
-					clicksound = "ui_tank_designer_increase"
-				}
-				
-
-				instantTextboxType = {
-					name = "name"
-					position = { x = 11 y = 0 }
-					font = "hoi_18mbs"
-					maxWidth = 90
-					maxHeight = 20
-					format = center
-					text = "_engine_"
-				}
-
-				instantTextboxType = {
-					name = "level"
-					position = { x = 42 y = 18 }
-					font = "hoi_18mbs"
-					maxWidth = 28
-					maxHeight = 30
-					format = center
-					vertical_alignment = center
-					text = "99"
-				}
-
-			}
-			containerWindowType = {
-				name = "equipment_upgrade_1"
-				position = { x = @upgrade_btn y = @upgrade_btn_2 }
-				size = { width = 130 height = 50 } 
-			
-				buttonType = {
-					name = "btn_dec"
-					quadTextureSprite ="GFX_naval_decrease_amount"
-					position = { x = 10 y = 17 }
-					clicksound = "ui_tank_designer_decrease"
-				}
-
-				buttonType = {
-					name = "btn_inc"
-					quadTextureSprite ="GFX_naval_increase_amount"
-					position = { x = 70 y = 17 }
-					clicksound = "ui_tank_designer_increase"
-				}
-				
-
-				instantTextboxType = {
-					name = "name"
-					position = { x = 11 y = 0 }
-					font = "hoi_18mbs"
-					maxWidth = 90
-					maxHeight = 20
-					format = center
-					text = "_engine_"
-				}
-
-				instantTextboxType = {
-					name = "level"
-					position = { x = 42 y = 18 }
-					font = "hoi_18mbs"
-					maxWidth = 28
-					maxHeight = 30
-					format = center
-					vertical_alignment = center
-					text = "99"
-				}
-
-			}
-			containerWindowType = {
-				name = "equipment_upgrade_2"
-				position = { x = @upgrade_btn y = @upgrade_btn_3 }
-				size = { width = 130 height = 50 } 
-			
-				buttonType = {
-					name = "btn_dec"
-					quadTextureSprite ="GFX_naval_decrease_amount"
-					position = { x = 10 y = 17 }
-					clicksound = "ui_tank_designer_decrease"
-				}
-
-				buttonType = {
-					name = "btn_inc"
-					quadTextureSprite ="GFX_naval_increase_amount"
-					position = { x = 70 y = 17 }
-					clicksound = "ui_tank_designer_increase"
-				}
-				
-
-				instantTextboxType = {
-					name = "name"
-					position = { x = 11 y = 0 }
-					font = "hoi_18mbs"
-					maxWidth = 90
-					maxHeight = 20
-					format = center
-					text = "_engine_"
-				}
-
-				instantTextboxType = {
-					name = "level"
-					position = { x = 42 y = 18 }
-					font = "hoi_18mbs"
-					maxWidth = 28
-					maxHeight = 30
-					format = center
-					vertical_alignment = center
-					text = "99"
-				}
-
-			}
-			containerWindowType = {
-				name = "equipment_upgrade_3"
-				position = { x = @upgrade_btn y = @upgrade_btn_4 }
-				size = { width = 130 height = 50 } 
-			
-				buttonType = {
-					name = "btn_dec"
-					quadTextureSprite ="GFX_naval_decrease_amount"
-					position = { x = 10 y = 17 }
-					clicksound = "ui_tank_designer_decrease"
-				}
-
-				buttonType = {
-					name = "btn_inc"
-					quadTextureSprite ="GFX_naval_increase_amount"
-					position = { x = 70 y = 17 }
-					clicksound = "ui_tank_designer_increase"
-				}
-				
-
-				instantTextboxType = {
-					name = "name"
-					position = { x = 11 y = 0 }
-					font = "hoi_18mbs"
-					maxWidth = 90
-					maxHeight = 20
-					format = center
-					text = "_engine_"
-				}
-
-				instantTextboxType = {
-					name = "level"
-					position = { x = 42 y = 18 }
-					font = "hoi_18mbs"
-					maxWidth = 28
-					maxHeight = 30
-					format = center
-					vertical_alignment = center
-					text = "99"
-				}
-
-			}
-			containerWindowType = {
-				name = "equipment_upgrade_4"
-				position = { x = @upgrade_btn y = @upgrade_btn_5 }
-				size = { width = 130 height = 50 } 
-			
-				buttonType = {
-					name = "btn_dec"
-					quadTextureSprite ="GFX_naval_decrease_amount"
-					position = { x = 10 y = 17 }
-					clicksound = "ui_tank_designer_decrease"
-				}
-
-				buttonType = {
-					name = "btn_inc"
-					quadTextureSprite ="GFX_naval_increase_amount"
-					position = { x = 70 y = 17 }
-					clicksound = "ui_tank_designer_increase"
-				}
-				
-
-				instantTextboxType = {
-					name = "name"
-					position = { x = 11 y = 0 }
-					font = "hoi_18mbs"
-					maxWidth = 90
-					maxHeight = 20
-					format = center
-					text = "_engine_"
-				}
-
-				instantTextboxType = {
-					name = "level"
-					position = { x = 42 y = 18 }
-					font = "hoi_18mbs"
-					maxWidth = 28
-					maxHeight = 30
-					format = center
-					vertical_alignment = center
-					text = "99"
-				}
-
-			}
-			containerWindowType = {
-				name = "equipment_upgrade_5"
-				position = { x = @upgrade_btn y = @upgrade_btn_6 }
-				size = { width = 130 height = 50 } 
-			
-				buttonType = {
-					name = "btn_dec"
-					quadTextureSprite ="GFX_naval_decrease_amount"
-					position = { x = 10 y = 17 }
-					clicksound = "ui_tank_designer_decrease"
-				}
-
-				buttonType = {
-					name = "btn_inc"
-					quadTextureSprite ="GFX_naval_increase_amount"
-					position = { x = 70 y = 17 }
-					clicksound = "ui_tank_designer_increase"
-				}
-				
-
-				instantTextboxType = {
-					name = "name"
-					position = { x = 11 y = 0 }
-					font = "hoi_18mbs"
-					maxWidth = 90
-					maxHeight = 20
-					format = center
-					text = "_engine_"
-				}
-
-				instantTextboxType = {
-					name = "level"
-					position = { x = 42 y = 18 }
-					font = "hoi_18mbs"
-					maxWidth = 28
-					maxHeight = 30
-					format = center
-					vertical_alignment = center
-					text = "99"
-				}
-
-			}
 			######################################################################			
 	
 		}
