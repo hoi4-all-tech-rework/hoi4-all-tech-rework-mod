@@ -2127,7 +2127,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "equipment_module_category_entry"
-		size = { width=244 height=66 }
+		size = { width=244 height =86 }
 
 		background = {
 			name = "background"
