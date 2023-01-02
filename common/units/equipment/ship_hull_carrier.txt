@@ -271,6 +271,7 @@ equipments = {
 					ship_light_battery
 					dp_light_battery
 				}
+				gfx = front_slot
 			}
 			optional_slot_4 = {
 				required = no
