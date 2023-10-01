@@ -217,10 +217,10 @@ equipment_modules = {
 			convert_cost_ic = 45 #conversion cost from ANY ship_light_battery module
 		}
 		
-		can_convert_from = {
-			module = t0_ship_light_battery
-			convert_cost_ic = 75 #conversion cost from that specific module
-		}
+		# can_convert_from = {
+		# 	module = t0_ship_light_battery
+		# 	convert_cost_ic = 75 #conversion cost from that specific module
+		# }
 		critical_parts = { damaged_light_guns }
 	}
 	ship_light_battery_3 = {
@@ -448,7 +448,7 @@ equipment_modules = {
 	dp_light_battery_0 = {
 		abbreviation = "sae"
 		category = t1_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -475,7 +475,7 @@ equipment_modules = {
 	dp_light_battery_1 = {
 		abbreviation = "sae"
 		category = t1_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -502,7 +502,7 @@ equipment_modules = {
 	dp_light_battery_2 = {
 		abbreviation = "saf"
 		category = t1_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -534,7 +534,7 @@ equipment_modules = {
 	dp_light_battery_3 = {
 		abbreviation = "sag"
 		category = t2_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -566,7 +566,7 @@ equipment_modules = {
 	dp_light_battery_4 = {
 		abbreviation = "sah"
 		category = t2_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -598,7 +598,7 @@ equipment_modules = {
 	dp_light_battery_5 = {
 		abbreviation = "sah"
 		category = t3_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -633,7 +633,7 @@ equipment_modules = {
 	dp_light_battery_6 = {
 		abbreviation = "sah"
 		category = t3_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -668,7 +668,7 @@ equipment_modules = {
 	dp_light_battery_7 = {
 		abbreviation = "sah"
 		category = t4_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -707,7 +707,7 @@ equipment_modules = {
 	dp_light_battery_8 = {
 		abbreviation = "sah"
 		category = t4_dp_light_battery
-		gui_category = ship_light_battery
+		#gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
