@@ -1,34 +1,34 @@
 SpriteTypes = {
 	SpriteType = {
-		name = "GFX_small_howitzer_1"
+		name = "GFX_artillery1"
 		texturefile = "gfx/interface/technologies/artillery_tech/aa_1.png"
 	}
 	SpriteType = {
-		name = "GFX_small_howitzer_2"
+		name = "GFX_artillery2"
 		texturefile = "gfx/interface/technologies/artillery_tech/aa_2.png"
 	}		
 	SpriteType = {
-		name = "GFX_small_howitzer_3"
+		name = "GFX_artillery3"
 		texturefile = "gfx/interface/technologies/artillery_tech/aa_3.png"
 	}		
 	SpriteType = {
-		name = "GFX_small_howitzer_4"
+		name = "GFX_artillery4"
 		texturefile = "gfx/interface/technologies/artillery_tech/aa_4.png"
 	}		
 	SpriteType = {
-		name = "GFX_small_howitzer_5"
+		name = "GFX_artillery5"
 		texturefile = "gfx/interface/technologies/artillery_tech/aa_5.png"
 	}		
 	SpriteType = {
-		name = "GFX_small_howitzer_6"
+		name = "GFX_artillery6"
 		texturefile = "gfx/interface/technologies/artillery_tech/aa_6.png"
 	}		
 	SpriteType = {
-		name = "GFX_small_howitzer_7"
+		name = "GFX_artillery7"
 		texturefile = "gfx/interface/technologies/artillery_tech/aa_7.png"
 	}		
 	SpriteType = {
-		name = "GFX_small_howitzer_8"
+		name = "GFX_artillery8"
 		texturefile = "gfx/interface/technologies/artillery_tech/aa_8.png"
 	}		
 	SpriteType = {
