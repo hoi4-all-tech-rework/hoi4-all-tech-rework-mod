@@ -1,0 +1,24 @@
+sub_units = {
+	boat = {
+		sprite = destroyer
+		map_icon_category = ship
+		priority = 10
+		active = yes
+		type = { 
+			screen_ship 
+		}
+		need = { ship_hull_small = 1 }
+		need_equipment_modules = {
+			any = {
+				ssh_gunboat = 1
+				ssh_torpedo_boat = 0
+			}
+		}
+		supply_consumption = 0.01
+		max_organisation = 20
+		critical_parts = { destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 2
+		hit_profile_mult = 1.5
+	}
+
+}

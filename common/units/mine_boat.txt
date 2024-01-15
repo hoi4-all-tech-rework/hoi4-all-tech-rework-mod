@@ -7,25 +7,12 @@ sub_units = {
 		type = { 
 			screen_ship 
 		}
-		need = { ship_hull_boat = 1 }
+		need = { ship_hull_small = 1 }
 		need_equipment_modules = {
 			any = {
-				ship_torpedo_0 = 0
-				ship_torpedo_1 = 0
-				ship_torpedo_2 = 0
-				ship_torpedo_3 = 0
-				ship_torpedo_4 = 0
-				ship_torpedo_6 = 0
-				ship_torpedo_7 = 0
-				ship_torpedo_8 = 0
-				ship_mine_layer_1 = 1
-				ship_mine_layer_2 = 1
-				ship_mine_layer_3 = 1
-				ship_mine_layer_4 = 1
-				ship_mine_layer_5 = 1
-				ship_mine_layer_6 = 1
-				ship_mine_layer_7 = 1
-				ship_mine_layer_8 = 1
+				ssh_gunboat = 0
+				ssh_torpedo_boat = 0
+				ssh_miner_boat = 1
 			}
 		}
 		supply_consumption = 0.01

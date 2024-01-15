@@ -6949,7 +6949,7 @@ technologies = {
 #########Miniboat############
 	boat = {
 		enable_equipments = {
-			ship_hull_boat_1
+			ship_hull_small_1
 		}
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -6974,7 +6974,7 @@ technologies = {
 	}
 	boat_1 = {
 		enable_equipments = {
-			ship_hull_boat_2
+			ship_hull_small_2
 		}
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -7012,7 +7012,7 @@ technologies = {
 	}
 	boat_2 = {
 		enable_equipments = {
-			ship_hull_boat_3
+			ship_hull_small_3
 		}
 		allow_branch = {
 			has_dlc = "Man the Guns"

@@ -1,0 +1,44 @@
+equipment_modules = {
+	ssh_gunboat = {
+		category = small_ship_role_module
+		
+		multiply_stats = {
+			build_cost_ic = -0.01
+			lg_attack = 0.05
+			naval_speed = 0.005
+		}
+
+		can_convert_from = {
+			module_category = small_ship_role_module
+			convert_cost_ic = 20
+		}
+	}
+	ssh_torpedo_boat = {
+		category = small_ship_role_module
+		
+		multiply_stats = {
+			build_cost_ic = -0.01
+			torpedo_attack = 0.05
+			naval_speed = 0.005
+		}
+
+		can_convert_from = {
+			module_category = small_ship_role_module
+			convert_cost_ic = 20
+		}
+	}
+	ssh_miner_boat = {
+		category = small_ship_role_module
+		
+		multiply_stats = {
+			build_cost_ic = -0.01
+			mines_planting = 0.05
+			naval_speed = 0.005
+		}
+
+		can_convert_from = {
+			module_category = small_ship_role_module
+			convert_cost_ic = 20
+		}
+	}
+}
