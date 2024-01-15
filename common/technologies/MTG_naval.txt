@@ -6969,7 +6969,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			bo_tech
+			
 		}
 	}
 	boat_1 = {
@@ -7007,7 +7007,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			bo_tech
+			
 		}
 	}
 	boat_2 = {
@@ -7041,7 +7041,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			bo_tech
+			
 		}
 	}
 	boat_1_T = {

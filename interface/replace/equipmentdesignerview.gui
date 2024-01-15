@@ -1491,7 +1491,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "name"
-				position = { x = 35 y = 0 }
+				position = { x = 35 y = 8 }
 				font = "hoi_18mbs"
 				text = "COMBAT_HEADER"
 				maxWidth = 260
@@ -1685,7 +1685,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "icn_module_slot_frame"
-				position = { x=14 y=14 }
+				position = { x=14 y=34 }
 				spriteType = "GFX_equipment_module_bg_nav"
 			}
 			
@@ -1726,7 +1726,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "designer_intel_container"
 			size = { width = 317 height = 540 }
-			position = { x = 1230 y = 2 }
+			position = { x = 1230 y = 100 }
 			clipping = no
 			
 			background = {
@@ -1875,7 +1875,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "referenced_info"
-			position = { x=980 y=341}
+			position = { x=1000 y=400}
 			size = { width=536 height=202 }
 			
 			clipping = no
@@ -2164,7 +2164,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "equipment_module_entry"
-		size = { width=244 height=66 }
+		size = { width=244 height=70 }
 
 		background = {
 			name = "background"
