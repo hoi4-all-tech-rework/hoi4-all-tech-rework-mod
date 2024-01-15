@@ -653,6 +653,10 @@ guiTypes = {
 						position = { x=@Front_3x y=@UNDER_1_y }
 					}
 				#######
+				positionType = {
+					name = "pos_fixed_module_slot_window_19"
+					position = { x=875 y=385 }
+				}
 			#############################################
 
 			################ICON&BUTTON################
@@ -1095,7 +1099,18 @@ guiTypes = {
 					}				
 				##
 
-			######################################################################			
+			######################################################################	
+			iconType = {
+				name = "icn_fixed_role"
+				position = { x=875 y=385 }
+				spriteType = "GFX_equipment_module_bg_nav"
+			}
+
+			buttonType = {
+				name = "btn_fixed_role"
+				position = { x=875 y=385 }
+				spriteType = "GFX_locked_icon_nav"
+			}		
 	
 		}
 
