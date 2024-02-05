@@ -41,4 +41,19 @@ equipment_modules = {
 			convert_cost_ic = 20
 		}
 	}
+
+	ssh_carrier = {
+		category = cv_ship_role_module
+		
+		multiply_stats = {
+			build_cost_ic = -0.01
+			mines_planting = 0.05
+			naval_speed = 0.005
+		}
+
+		can_convert_from = {
+			module_category = cv_ship_role_module
+			convert_cost_ic = 20
+		}
+	}
 }

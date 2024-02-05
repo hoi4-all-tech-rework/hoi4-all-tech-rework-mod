@@ -9,15 +9,15 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width=841 height=481 }
 
-		background = {
-			name = "Background"
-			spriteType = "GFX_tiled_window_transparent"
-		}
+		# background = {
+		# 	name = "Background"
+		# 	spriteType = "GFX_tiled_window_transparent"
+		# }
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_carrier_new"
-			position = { x=0 y=0 }
+			spriteType = "GFX_SD_tv_carrier"
+			position = { x=0 y= 160 }
 		}
 
 		containerWindowType = {

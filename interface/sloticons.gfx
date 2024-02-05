@@ -62,6 +62,10 @@ spriteTypes = {
 		name = "GFX_EMSI_front_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/icons/front_slot.png"
 	}
+	spriteType = {
+		name = "GFX_EMSI_front_2_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/icons/front_slot.png"
+	}
 	#######################
 	# nav_modules_icon
 	#######################

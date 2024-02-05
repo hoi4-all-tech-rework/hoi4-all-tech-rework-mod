@@ -291,6 +291,13 @@ equipments = {
 				}
 				gfx = optional_slot
 			}
+			fixed_role_slot = {
+				required = yes
+				allowed_module_categories = {
+					cv_ship_role_module
+				}
+				gfx = 
+			}
 		}
 		module_count_limit = {
 			category = ship_radar

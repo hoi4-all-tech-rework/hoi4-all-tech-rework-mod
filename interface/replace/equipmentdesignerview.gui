@@ -402,20 +402,24 @@ guiTypes = {
 			position = { x=11 y=121 }
 			size = { width=841 height= 481}
 
+			# background = {
+			# 	name = "background"
+			# 	spriteType = "GFX_tiled_window_transparent"
+			# }
 			background = {
 				name = "background"
-				spriteType = "GFX_tiled_window_transparent"
+				spriteType = "GFX_ship_view_bg"
 			}
 
 			containerWindowType = {
 				name = "equipment_preview"
-				position = { x=0 y=0 }
-				size = { width=841 height=481 }
-
-				background = {
-					name = "background"
-					spriteType = "GFX_ship_view_bg"
-				}
+				position = { x=0 y=120 }
+				size = { width=841 height=260 }
+				# format = center
+				# background = {
+				# 	name = "background"
+				# 	spriteType = "GFX_ship_view_bg"
+				# }
 
 				# The window of the appropriate hull is inserted here by code
 
@@ -443,7 +447,9 @@ guiTypes = {
 			@UNDER_1_y = 405
 			@UPPER_0_y_t = 2 
 			@UPPER_1_y_t = 78	
-			@UPPER_2_y_t = 154 	
+			@UPPER_2_y_t = 154
+			@UPPER_3_y 	= 152
+			# @UPPER_3_y_t = 152
 			@UNDER_0_y_t = 331
 			@UNDER_1_y_t = 407
 			@Mainwepon_0_x_t = 268
@@ -1100,17 +1106,17 @@ guiTypes = {
 				##
 
 			######################################################################	
-			iconType = {
-				name = "icn_fixed_role"
-				position = { x=875 y=385 }
-				spriteType = "GFX_equipment_module_bg_nav"
-			}
+			# iconType = {
+			# 	name = "icn_fixed_role"
+			# 	position = { x=875 y=385 }
+			# 	spriteType = "GFX_equipment_module_bg_nav"
+			# }
 
-			buttonType = {
-				name = "btn_fixed_role"
-				position = { x=875 y=385 }
-				spriteType = "GFX_locked_icon_nav"
-			}		
+			# buttonType = {
+			# 	name = "btn_fixed_role"
+			# 	position = { x=875 y=385 }
+			# 	spriteType = "GFX_locked_icon_nav"
+			# }		
 	
 		}
 
@@ -1700,7 +1706,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "icn_module_slot_frame"
-				position = { x=14 y=34 }
+				position = { x=14 y=14 }
 				spriteType = "GFX_equipment_module_bg_nav"
 			}
 			
